@@ -31,7 +31,7 @@ while currentNode:
     currentNode = currentNode.next
 print("null")
 
-print("\nTravesing backward:")
+print("\nTraversing backward:")
 currentNodeBack = node5
 while currentNodeBack:
     print(currentNodeBack.data, end=" --> ")
